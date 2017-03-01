@@ -25,6 +25,7 @@ Example:
 
 > madlib('Anushka', 'art');
 'Anushka's favorite subject in school is art.'
+
 ##Tip Calculator
 
 Write a function tipAmount that is given the bill amount and the level of service (one of good, fair and poor) and returns the dollar amount for the tip. Based on:
@@ -36,6 +37,7 @@ bad -> 10%
 20
 > tipAmount(40, 'fair')
 6
+
 ##Tip Calculator 2
 
 Write a function totalAmount that takes the same arguments as tipAmount except it returns the total as the tip amount plus the bill amount. This function may make use of tipAmount as a sub-task.
@@ -44,6 +46,7 @@ Write a function totalAmount that takes the same arguments as tipAmount except i
 120
 > totalAmount(40, 'fair')
 46
+
 ##Tip Calculator 3
 
 Write a function splitAmount that takes the bill amount and the level of service, and the number of people to split the bill between. It will return the final amount for each person.
@@ -52,6 +55,7 @@ Write a function splitAmount that takes the bill amount and the level of service
 24
 > splitAmount(40, 'fair', 2)
 23
+
 ##Print Numbers
 
 Write a function printNumbers which is given a start number and an end number. It will print the numbers from one to the other, one per line:
@@ -79,6 +83,7 @@ Write a function printSquare which is given a size and prints a square of that s
 *****
 *****
 *****
+
 ##Print a box
 
 Write function printBox which is given a width and height and prints a hollow box of those given dimensions.
@@ -88,6 +93,7 @@ Write function printBox which is given a width and height and prints a hollow bo
 *    *
 *    *
 ******
+
 ##Print a Banner
 
 Write a function printBanner which is given some text and prints a banner with a border surrounding the text. The border has to stretch to the length of the text.
@@ -96,6 +102,7 @@ Write a function printBanner which is given some text and prints a banner with a
 ****************************
 * Welcome to DigitalCrafts *
 ****************************
+
 ##Factor a Number
 
 Write a function factors which is given a number and returns an array containing all its factors. What are factors? https://www.khanacademy.org/math/pre-algebra/factors-multiples/divisibility-and-factors/v/finding-factors-of-a-number
@@ -106,12 +113,14 @@ Write a function cipher which is given a string, an offset, and returns the Caes
 
 > cipher('Genius without education is like silver in the mine')
 'Travhf jvgubhg rqhpngvba vf yvxr fvyire va gur zvar'
+
 ##Caesar Cipher 2
 
 Write a function decipher which is given a string, an offset, and returns the original message.
 
 > decipher('Travhf jvgubhg rqhpngvba vf yvxr fvyire va gur zvar')
 'Genius without education is like silver in the mine'
+
 ##Leetspeak
 
 Write a function leetspeak which is given a string, and returns the leetspeak equivalent of the string. To convert text to its leetspeak version, make the following substitutions:
@@ -125,6 +134,7 @@ S => 5
 T => 7
 > leetspeak('Leet')
 l337
+
 ##Long-long Vowels
 
 Write a function, which is given a string, return the result of extending any long vowels to the length of 5.
@@ -135,12 +145,14 @@ Write a function, which is given a string, return the result of extending any lo
 'Cheeeeese'
 > longLongVowels('Man')
 'Man'
+
 ##Sum the numbers
 
 Write a function sumNumbers which is given an array of numbers and returns the sum of the numbers.
 
 > sumNumbers([1, 4, 8])
 13
+
 ##Just the positives
 
 Write a function positiveNumbers which is given an array of numbers and returns a new array containing only the positive numbers within the given array.
@@ -165,6 +177,7 @@ https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matric
 
 > matrixMultiply([[2, 4], [3, 4]], [[5, 2], [3, 1]])
 [ [22,  8], [27, 10] ]
+
 ##Rock Paper Scissors
 
 Write a function rockPaperScissors which takes the throw of player 1 and the throw of player 2. A throw can have the values of 'rock', 'paper', or 'scissors'. It will return 'player 1' if player 1 wins, 'player 2' if player 2 wins, and 'draw' if there is no winner.
@@ -175,6 +188,7 @@ Write a function rockPaperScissors which takes the throw of player 1 and the thr
 'player 2'
 > rockPaperScissors('paper', 'paper')
 'draw'
+
 ##Tic Tac Toe
 
 Write a function ticTacToe which takes a two-dimensional array of size 3x3. Each cell in the two dimensional array can be one of 'O', 'X', or null. The ticTacToe function will determine the winner by
